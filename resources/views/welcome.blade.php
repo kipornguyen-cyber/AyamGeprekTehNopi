@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f9f2e5">
+    <meta name="google-site-verification" content="ZEC6WLjn5zej8E1AO33WagEBcWCZcFI6TMIlxD85Aow">
     <meta name="description" content="Warung Teh Nopi — ayam geprek, ayam penyet, dan masakan rumahan enak dengan harga bersahabat.">
     <title>Warung Teh Nopi — Ayam Geprek & Masakan Rumahan</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
