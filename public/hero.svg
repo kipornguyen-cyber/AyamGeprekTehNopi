@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6e6c8"/>
+      <stop offset="1" stop-color="#e8cfa4"/>
+    </linearGradient>
+    <radialGradient id="plateShade" cx="0.5" cy="0.42" r="0.62">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9cbae"/>
+    </radialGradient>
+    <linearGradient id="chick" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e08b3c"/>
+      <stop offset="1" stop-color="#a4571f"/>
+    </linearGradient>
+    <linearGradient id="chick2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c9721f"/>
+      <stop offset="1" stop-color="#8c4314"/>
+    </linearGradient>
+    <linearGradient id="rice" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ece2cf"/>
+    </linearGradient>
+    <linearGradient id="sambal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d94a35"/>
+      <stop offset="1" stop-color="#9c2a1c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="1000" fill="url(#bg)"/>
+
+  <!-- soft deco circles -->
+  <circle cx="120" cy="150" r="60" fill="#ffffff" opacity="0.25"/>
+  <circle cx="820" cy="330" r="90" fill="#ffffff" opacity="0.18"/>
+  <circle cx="760" cy="890" r="55" fill="#ffffff" opacity="0.25"/>
+  <circle cx="90" cy="820" r="40" fill="#ffffff" opacity="0.2"/>
+
+  <!-- chili deco -->
+  <g transform="translate(670,120) rotate(28)">
+    <path d="M0 0 Q4 -26 14 -30 Q8 -12 10 0 Z" fill="#4f7a3a"/>
+    <path d="M4 2 Q-24 34 -40 96 Q-44 112 -30 104 Q-6 84 12 34 Q16 14 4 2 Z" fill="#c2352b"/>
+  </g>
+  <g transform="translate(150,640) rotate(-35) scale(-1,1)">
+    <path d="M0 0 Q4 -26 14 -30 Q8 -12 10 0 Z" fill="#4f7a3a"/>
+    <path d="M4 2 Q-24 34 -40 96 Q-44 112 -30 104 Q-6 84 12 34 Q16 14 4 2 Z" fill="#bd352b"/>
+  </g>
+
+  <!-- steam -->
+  <g stroke="#ffffff" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.65">
+    <path d="M420 258 q-16 42 0 84 q16 42 0 70" opacity="0.5"/>
+    <path d="M470 238 q16 44 0 88 q-14 40 0 66" opacity="0.42"/>
+    <path d="M370 272 q-14 40 0 78 q14 36 0 58" opacity="0.35"/>
+  </g>
+
+  <!-- plate -->
+  <ellipse cx="450" cy="600" rx="380" ry="270" fill="#8a6742" opacity="0.30"/>
+  <ellipse cx="450" cy="570" rx="380" ry="270" fill="#b98a5c"/>
+  <ellipse cx="450" cy="560" rx="366" ry="256" fill="url(#plateShade)"/>
+  <ellipse cx="450" cy="560" rx="300" ry="205" fill="none" stroke="#cfc2a3" stroke-width="6" opacity="0.65"/>
+
+  <!-- lettuce bed -->
+  <g fill="#5f8f46">
+    <path d="M250 520 Q222 470 268 440 Q296 418 330 444 Q350 404 400 424 Q446 440 436 492 Q470 480 486 516 Q500 548 462 570 Q470 604 430 612 Q392 620 372 590 Q340 626 296 606 Q258 588 266 552 Q238 548 250 520 Z"/>
+    <path d="M300 530 Q330 500 366 520" stroke="#4d7538" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M380 480 Q410 470 428 500" stroke="#4d7538" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M270 480 Q282 460 306 468" stroke="#4d7538" stroke-width="7" fill="none" stroke-linecap="round"/>
+  </g>
+  <g fill="#75a756">
+    <path d="M282 470 Q296 452 318 462" fill="none" stroke="#75a756" stroke-width="10" stroke-linecap="round"/>
+    <path d="M352 506 Q372 488 396 506" fill="none" stroke="#75a756" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- rice mound -->
+  <g>
+    <path d="M470 660 Q436 560 480 508 Q520 462 586 470 Q656 478 676 540 Q694 596 664 646 Q630 692 560 686 Q500 682 470 660 Z" fill="url(#rice)"/>
+    <!-- rice grains -->
+    <g fill="#fff" stroke="#d8cdb8" stroke-width="3" opacity="0.95">
+      <ellipse cx="512" cy="540" rx="17" ry="10" transform="rotate(-18 512 540)"/>
+      <ellipse cx="556" cy="512" rx="16" ry="10" transform="rotate(12 556 512)"/>
+      <ellipse cx="600" cy="540" rx="17" ry="10" transform="rotate(-8 600 540)"/>
+      <ellipse cx="540" cy="585" rx="17" ry="10" transform="rotate(20 540 585)"/>
+      <ellipse cx="600" cy="600" rx="16" ry="10" transform="rotate(-22 600 600)"/>
+      <ellipse cx="648" cy="570" rx="15" ry="9" transform="rotate(14 648 570)"/>
+      <ellipse cx="575" cy="640" rx="16" ry="10" transform="rotate(-10 575 640)"/>
+      <ellipse cx="510" cy="620" rx="15" ry="9" transform="rotate(26 510 620)"/>
+      <ellipse cx="640" cy="510" rx="15" ry="9" transform="rotate(-30 640 510)"/>
+      <ellipse cx="470" cy="580" rx="14" ry="9" transform="rotate(8 470 580)"/>
+    </g>
+  </g>
+
+  <!-- chicken piece 1 (drumstick) -->
+  <g transform="translate(300,470) rotate(-14)">
+    <path d="M60 130 Q0 118 -10 66 Q-16 24 26 4 Q74 -18 118 10 Q160 34 150 88 Q140 142 88 148 Q72 150 60 130 Z" fill="url(#chick)"/>
+    <path d="M10 60 Q22 22 64 12 Q110 2 138 40" fill="none" stroke="#f2b26a" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+    <g fill="#8c4314" opacity="0.35">
+      <ellipse cx="52" cy="92" rx="14" ry="8" transform="rotate(24 52 92)"/>
+      <ellipse cx="104" cy="104" rx="13" ry="7" transform="rotate(-16 104 104)"/>
+      <ellipse cx="84" cy="52" rx="12" ry="7" transform="rotate(10 84 52)"/>
+    </g>
+    <!-- bone -->
+    <path d="M150 70 L206 58" stroke="#f7f1e3" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="222" cy="50" r="13" fill="#f7f1e3"/>
+    <circle cx="216" cy="70" r="13" fill="#fdf9ee"/>
+  </g>
+
+  <!-- chicken piece 2 (fillet) -->
+  <g transform="translate(210,640) rotate(9)">
+    <path d="M20 54 Q30 8 96 6 Q176 4 196 58 Q214 112 150 132 Q76 152 36 116 Q10 92 20 54 Z" fill="url(#chick2)"/>
+    <path d="M40 44 Q90 18 170 50" fill="none" stroke="#e59a4d" stroke-width="11" stroke-linecap="round" opacity="0.8"/>
+    <g fill="#6d3410" opacity="0.35">
+      <ellipse cx="80" cy="96" rx="15" ry="8" transform="rotate(-14 80 96)"/>
+      <ellipse cx="140" cy="104" rx="14" ry="8" transform="rotate(12 140 104)"/>
+      <ellipse cx="120" cy="66" rx="12" ry="7" transform="rotate(-6 120 66)"/>
+      <ellipse cx="60" cy="80" rx="11" ry="7" transform="rotate(20 60 80)"/>
+    </g>
+  </g>
+
+  <!-- sambal -->
+  <g>
+    <path d="M620 610 Q600 570 636 556 Q678 542 690 578 Q718 574 726 602 Q734 632 700 640 Q702 668 668 666 Q636 664 634 640 Q610 634 620 610 Z" fill="url(#sambal)"/>
+    <g fill="#f0a08e">
+      <circle cx="650" cy="588" r="5"/>
+      <circle cx="688" cy="612" r="4"/>
+      <circle cx="668" cy="634" r="3.6"/>
+    </g>
+    <g fill="#7c2115">
+      <circle cx="676" cy="596" r="4.4"/>
+      <circle cx="700" cy="628" r="3.4"/>
+    </g>
+    <!-- chili flakes on sambal -->
+    <circle cx="646" cy="616" r="4" fill="#57a33c"/>
+    <circle cx="712" cy="598" r="3.6" fill="#57a33c"/>
+  </g>
+
+  <!-- cucumber slices -->
+  <g transform="translate(430,700)">
+    <circle cx="0" cy="0" r="34" fill="#e6efdc" stroke="#bcd3a4" stroke-width="5"/>
+    <circle cx="0" cy="0" r="24" fill="#f3f8ec"/>
+    <circle cx="0" cy="0" r="10" fill="#dbe8c8"/>
+    <g stroke="#c4d8ab" stroke-width="3.4" fill="none">
+      <circle cx="0" cy="0" r="17"/>
+    </g>
+  </g>
+  <g transform="translate(502,712)">
+    <circle cx="0" cy="0" r="30" fill="#e6efdc" stroke="#bcd3a4" stroke-width="5"/>
+    <circle cx="0" cy="0" r="21" fill="#f3f8ec"/>
+    <circle cx="0" cy="0" r="9" fill="#dbe8c8"/>
+  </g>
+
+  <!-- cherry tomato deco -->
+  <g transform="translate(238,380)">
+    <circle cx="0" cy="0" r="26" fill="#d1442f"/>
+    <circle cx="-8" cy="-8" r="8" fill="#e77a63"/>
+    <path d="M-2 -24 Q0 -34 8 -36" stroke="#4f7a3a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- floating price tag -->
+  <g transform="translate(640,300) rotate(8)">
+    <rect x="-64" y="-38" width="128" height="76" rx="38" fill="#fffdf7" stroke="#e9ddca" stroke-width="2"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="15" fill="#817568" font-weight="600">Mulai dari</text>
+    <text x="0" y="22" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="26" fill="#bd352b" font-weight="700">Rp 11.000</text>
+  </g>
+
+  <!-- banner ribbon -->
+  <g transform="translate(60,880)">
+    <rect x="-10" y="-46" width="330" height="92" rx="46" fill="#492518"/>
+    <text x="155" y="-2" text-anchor="middle" font-family="'DM Serif Display',serif" font-size="30" fill="#efb344">Warung Teh Nopi</text>
+    <text x="155" y="28" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="16" fill="#fff4dd">Sambal segar, bikin nagih</text>
+  </g>
+</svg>
